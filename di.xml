@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Iranimij\McpServer\Api\ProductManagerInterface">
+        <arguments>
+            <argument name="productManager" xsi:type="object">Iranimij\McpServer\Model\ProductManager</argument>
+        </arguments>
+    </type>
+    <preference for="Iranimij\McpServer\Api\ProductManagerInterface" type="Iranimij\McpServer\Model\ProductManager" />
+</config> 

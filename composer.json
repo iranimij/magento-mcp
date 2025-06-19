@@ -1,0 +1,30 @@
+{
+    "name": "iranimij/magento2-mcp-server",
+    "license": "OSL-3.0",
+    "version": "1.0.0",
+    "description": "A Magento 2 module that provides MCP features.",
+    "type": "magento2-module",
+    "keywords": [
+        "mcp-server",
+        "magento",
+        "features"
+    ],
+    "authors": [
+        {
+            "name": "Iman Aboheydary (Iranimij)",
+            "email": "iranimij@gmail.com"
+        }
+    ],
+    "require": {
+        "magento/framework": "^103.0",
+        "php-mcp/server": "*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Iranimij\\McpServer\\": ""
+        }
+    }
+}
