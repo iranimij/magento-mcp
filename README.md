@@ -50,4 +50,4 @@ Future useful prompts:
 - Send blog posts
 
 ### The remote server
-This modules remote server https://www.npmjs.com/package/@iranimij/magento-mcp-remote-server works with this module to provide a remote MCP server for Magento 2. It is designed to work with the [Model Context Protocol (MCP)](https://modelcontextprotocol.org/) and provides a CLI server that exposes tools for demonstration and fetching product details from a Magento backend.
+This modules remote server https://github.com/iranimij/mcp-node-server works with this module to provide a remote MCP server for Magento 2. It is designed to work with the [Model Context Protocol (MCP)](https://modelcontextprotocol.org/) and provides a CLI server that exposes tools for demonstration and fetching product details from a Magento backend.
