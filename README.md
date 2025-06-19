@@ -10,34 +10,44 @@ composer require iranimij/magento2-mcp-server
 ```
 
 ### Features
-- Provides core MCP features for Magento 2.
+- Sends products details based on the product ID.
+- ...
 
-### Example Usage
-// Add usage examples here as the module develops.
-
-
-https://app.magento.test/rest/V1/iranimij/Product/1
+### Example prompts
+1. send product detail 1
 
 
-How to define your sever to the AI client : 
+### AI client configuration (Cursor, Claude desktop, etc.)
 
-`"testServer": {
-"command": "npx",
-"args": ["@iranimij/magento-mcp-remote-server"],
-"env": {
-"MAGENTO_API_URL": "https://app.magento.test/"
-}
-},`
+```json
+"testServer": {
+  "command": "npx",
+  "args": ["@iranimij/magento-mcp-remote-server"],
+  "env": {
+    "MAGENTO_API_URL": "https://app.magento.test/"
+  }
+},
+```
+
+Make sure to put your magento URL in `MAGENTO_API_URL`.
 
 
+Future useful prompts:
+- Send client names
+- Send client addresses
+- Send order details
+- Send order items
+- Send order totals
+- Send order shipping details
+- Send order payment details
+- Send order status
+- Send order history
+- create order
+- create admin
+- create product
+- create category
+- create customer
+- Send blog posts
 
-What I have done so far:
-1. Created the server 
-2. Sent URl varialbe to the server to it knows that which website should it use
-3. created the Token API by patch so after installing the module the Token is generated.
-4. Now the prompt "get product detail 1" returns data
-5. the bundle is generated in the js file.
-
-What should I do:
-1. Check the token if it is correct or not, and if the token is correct I can return the data.
-2. I edited the token manager and it just creates the token, I can add a get function for getting the token.
+### The remote server
+This modules remote server https://www.npmjs.com/package/@iranimij/magento-mcp-remote-server works with this module to provide a remote MCP server for Magento 2. It is designed to work with the [Model Context Protocol (MCP)](https://modelcontextprotocol.org/) and provides a CLI server that exposes tools for demonstration and fetching product details from a Magento backend.
