@@ -1,5 +1,5 @@
 {
-    "name": "iranimij/magento2-mcp-server",
+    "name": "iranimij/magento2-mcp",
     "license": "OSL-3.0",
     "version": "1.0.0",
     "description": "A Magento 2 module that provides MCP features.",
