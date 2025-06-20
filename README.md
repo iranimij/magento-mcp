@@ -15,7 +15,11 @@ composer require iranimij/magento-mcp
 
 ### Example prompts
 1. send product detail 1
-
+2. Send me product details 1
+3. Send me today's orders
+4. Send me today's orders grand total
+5. Send me today's pending orders
+6. Send me today's customers names
 
 ### AI client configuration (Cursor, Claude desktop, etc.)
 
