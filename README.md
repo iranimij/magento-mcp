@@ -6,7 +6,7 @@ This module provides general MCP features for Magento 2.
 
 ### Installation
 ```bash
-composer require iranimij/magento2-mcp-server
+composer require iranimij/magento-mcp
 ```
 
 ### Features
