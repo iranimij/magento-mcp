@@ -1,7 +1,7 @@
 {
     "name": "iranimij/magento-mcp",
     "license": "OSL-3.0",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "description": "A Magento 2 module that provides MCP features.",
     "type": "magento2-module",
     "keywords": [
