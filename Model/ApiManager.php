@@ -27,9 +27,9 @@ class ApiManager implements ApiManagerInterface
     /**
      * {@inheritdoc}
      */
-    public function getToolsResults($name, $params)
+    public function getToolsResults($name)
     {
         $tool = $this->toolFactory->create($name);
-        return $tool->get($params);
+        return $tool->get();
     }
 }
