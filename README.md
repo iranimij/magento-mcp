@@ -13,13 +13,49 @@ composer require iranimij/magento-mcp
 - Sends products details based on the product ID.
 - ...
 
-### Example prompts
-1. send product detail 1
-2. Send me product details 1
-3. Send me today's orders
-4. Send me today's orders grand total
-5. Send me today's pending orders
-6. Send me today's customers names
+## Tools Provided
+
+### 1. `get-product-details`
+Fetches product details for a given product ID from the Magento API.
+
+example prompt: get product details 1
+
+**Parameters:**
+- `productId` (string): The product ID to fetch details for.
+
+### 2. `get-todays-orders`
+Fetches all orders placed today from the Magento API. This tool doesn't require any parameters.
+
+example prompt: get todays orders
+
+### 3. `create-customer`
+Creates a new customer in Magento.
+
+**Parameters:**
+- `customer` (object): An object containing the customer's details.
+    - `email` (string): The customer's email address.
+    - `firstname` (string): The customer's first name.
+    - `lastname` (string): The customer's last name.
+    - `addresses` (array, optional): A list of customer addresses.
+- `password` (string): The customer's password.
+
+example prompt: create a new customer
+
+### 4. `create-simple-product`
+Creates a new simple product in Magento.
+
+example prompt: create a new simple product
+
+**Parameters:**
+- `product` (object): An object containing the product's details.
+    - `sku` (string): The product's SKU.
+    - `name` (string): The product's name.
+    - `price` (number): The product's price.
+    - `attribute_set_id` (number): The attribute set ID for the product.
+    - `status` (number): The product's status (e.g., 1 for enabled).
+    - `visibility` (number): The product's visibility (e.g., 4 for catalog, search).
+    - `type_id` (string): Must be set to "simple".
+
 
 ### AI client configuration (Cursor, etc.)
 
