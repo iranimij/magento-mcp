@@ -21,14 +21,16 @@ composer require iranimij/magento-mcp
 5. Send me today's pending orders
 6. Send me today's customers names
 
-### AI client configuration (Cursor, Claude desktop, etc.)
+### AI client configuration (Cursor, etc.)
 
 ```json
 "testServer": {
   "command": "npx",
   "args": ["@iranimij/magento-mcp-remote-server"],
   "env": {
-    "MAGENTO_API_URL": "https://app.magento.test/"
+    "MAGENTO_API_URL": "https://app.magento.test/",
+    "MAGENTO_ADMIN_USERNAME": "admin",
+    "MAGENTO_ADMIN_PASSWORD": "admin1234"
   }
 },
 ```
