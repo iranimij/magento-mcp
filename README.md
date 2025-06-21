@@ -56,7 +56,6 @@ example prompt: create a new simple product
     - `visibility` (number): The product's visibility (e.g., 4 for catalog, search).
     - `type_id` (string): Must be set to "simple".
 
-
 ### AI client configuration (Cursor, etc.)
 
 ```json
