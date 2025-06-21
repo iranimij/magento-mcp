@@ -17,11 +17,11 @@ composer require iranimij/magento-mcp
 
 This server exposes the following tools. Click each tool for detailed documentation:
 
-- [get-product-details](docs/get-product-details.md): Fetch product details for a given product ID from the Magento API.
-- [get-todays-orders](docs/get-todays-orders.md): Fetch all orders placed today from the Magento API.
-- [create-customer](docs/create-customer.md): Create a new customer in Magento.
-- [create-simple-product](docs/create-simple-product.md): Create a new simple product in Magento.
-- [search-product-details](docs/search-product-details.md): Search for product details by SKU, name, or ID from the Magento API.
+- [get-product-details](https://github.com/iranimij/magento-mcp-node-server/blob/main/docs/get-product-details.md): Fetch product details for a given product ID from the Magento API.
+- [get-todays-orders](https://github.com/iranimij/magento-mcp-node-server/blob/main/docs/get-todays-orders.md): Fetch all orders placed today from the Magento API.
+- [create-customer](https://github.com/iranimij/magento-mcp-node-server/blob/main/docs/create-customer.md): Create a new customer in Magento.
+- [create-simple-product](https://github.com/iranimij/magento-mcp-node-server/blob/main/docs/create-simple-product.md): Create a new simple product in Magento.
+- [search-product-details](https://github.com/iranimij/magento-mcp-node-server/blob/main/docs/search-product-details.md): Search for product details by SKU, name, or ID from the Magento API.
 
 ---
 
@@ -29,7 +29,7 @@ This server exposes the following tools. Click each tool for detailed documentat
 
 Below is an example output for a product search using the `search-product-details` tool:
 
-![Example product search output](docs/search-product-name.png)
+![Example product search output](https://github.com/iranimij/magento-mcp-node-server/blob/main/docs/search-product-name.png?raw=true)
 
 ### AI client configuration (Cursor, etc.)
 
