@@ -9,10 +9,6 @@ This module provides general MCP features for Magento 2.
 composer require iranimij/magento-mcp
 ```
 
-### Features
-- Sends products details based on the product ID.
-- ...
-
 ## Tools
 
 This server exposes the following tools. Click each tool for detailed documentation:
